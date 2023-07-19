@@ -1,5 +1,5 @@
 set -xe
-
+pip3 install pyyaml networkx ignnition==1.7.0
 autoPath=`realpath .`
 
 mkdir -p results
